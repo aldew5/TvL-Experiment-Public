@@ -8,16 +8,17 @@ import firebase from "../util/firebase.js";
 const Selection = ({ keyVal, keyPressed, setKeyVal, setDisplay,
     setDisplayImages, types, size, ctr, index,
     startTime, type, pos }) => {
-
+    
     const [correct, setCorrect] = useState(false);
     
     const [initials, setInitials, condition, setCondition, TvL, setTvL, practice, setPractice,
         exper, setExper, size1, setSize1, size2, setSize2, size3,
         setSize3, prob, setProb, sizes, setSizes, shuffle, date, setDate] = useContext(ExperimentContext);
-
-
+    
+        
     // update the display after 2s to redisplay the Ts and Ls
     useEffect(() => {
+        
         const timer = setTimeout(() => {
             setDisplay(true);
             setDisplayImages(false);
@@ -112,6 +113,8 @@ const Selection = ({ keyVal, keyPressed, setKeyVal, setDisplay,
     
 
     useEffect(() => {
+       
+        //console.log("HERE", canPress);
         let isCorrect = false;
         if (keyPressed === keyVal) {
             setCorrect(true);

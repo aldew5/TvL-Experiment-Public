@@ -5,7 +5,7 @@ export const ExperimentContext = createContext();
 export const ExperimentProvider = (props) => {
     const [initials, setInitials] = useState("AD");
     const [condition, setCondition] = useState("3");
-    const [TvL, setTvL] = useState("1");
+    const [TvL, setTvL] = useState("3");
     const [practice, setPractice] = useState(10);
     const [exper, setExper] = useState(200);
 

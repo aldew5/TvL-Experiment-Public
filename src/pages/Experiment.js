@@ -5,6 +5,10 @@ import { ExperimentContext } from "../components/ExperimentContext";
 import Complete from "../components/Complete.js";
 import Images from "../components/Images.js";
 
+function useForceUpdate(){
+  const [value, setValue] = useState(0); // integer state
+  return () => setValue(value => value + 1); // update the state to force render
+}
 
 const Experiment = () => {
 
@@ -23,9 +27,11 @@ const Experiment = () => {
   const [type, setType] = useState("");
   const [ctr, setCtr] = useState(0);
   const [types, setTypes] = useState([]);
+  const [canPress, setCanPress] = useState(false);
 
   const [startTime, setStartTime] = useState(0);
   const [pos, setPos] = useState(-1);
+  const forceUpdate = useForceUpdate();
 
   // number of images in the current trial
   let size = sizes[index];
@@ -34,18 +40,16 @@ const Experiment = () => {
   function handleKeyDown(event) {
     // we only handle a press when there are items on the screen
     // (otherwise it is not valid)
-    if (display === false) {
-      return;
-    }
-
     // valid key press
-    if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
+    if ((event.key === "ArrowLeft" || event.key === "ArrowRight") && canPress) {
+      setCanPress(false);
       setKeyPressed(event.key);
       setDisplay(false);
       setDisplayImages(false);
       // the the button to pressed -> the other useEffect will update the 
       // trial count
       setIsPress(true);
+      forceUpdate();
     }
   }
 
@@ -56,7 +60,8 @@ const Experiment = () => {
       window.removeEventListener('keyup', handleKeyDown);
     };
 
-  }, []);
+  });
+
 
   // count the trials 
   useEffect(() => {
@@ -77,12 +82,19 @@ const Experiment = () => {
   // delay the image display so that 
   // the O will attend to the blue square
   useEffect(() => {
-
     const timer = setTimeout(() => {
       setDisplayImages(true);
     }, 1000);
     return () => clearTimeout(timer);
   })
+
+  useEffect(() => {
+    
+    if (displayImages && display){
+      setCanPress(true);
+      forceUpdate();
+    }
+  }, [displayImages, display])
 
 
   return (
@@ -103,6 +115,7 @@ const Experiment = () => {
                   types={types}
                   setPos={setPos}
                   type={type}
+                  
                
                 /> :
                 <div></div>
@@ -127,6 +140,7 @@ const Experiment = () => {
                 types={types}
                 pos={pos}
                 index={index}
+                
 
               />
             </div>}

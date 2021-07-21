@@ -2,16 +2,16 @@ import React, { useContext, useEffect, useState } from "react";
 import Image from "./Image";
 import { ExperimentContext } from "../components/ExperimentContext";
 
-const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, type }) => {
+const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, type}) => {
 
     const [initials, setInitials, condition, setCondition, TvL, setTvL, practice, setPractice,
         exper, setExper, size1, setSize1, size2, setSize2, size3,
         setSize3, prob, setProb, sizes, setSizes, shuffle, date, setDate] = useContext(ExperimentContext);
 
     const [letters, setLetters] = useState([]);
-
+    
     useEffect(() => {
-
+        
         let start = new Date();
         setStartTime(start.getTime());
 
@@ -38,13 +38,13 @@ const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, 
         }
 
         let rand = Math.random();
-        console.log(rand);
+      
         if (TvL === "1") {
 
             if (type === "") {
                 style = "black";
             }
-            console.log("condition is ", condition);
+
             // set the colour of the T
             if (condition === "1" || condition === "4") {
                 style = "red";
@@ -100,7 +100,7 @@ const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, 
                 }
             }
             else if (condition === "3") {
-                console.log("HERE");
+               
                 if (type === "") {
                     style = "black";
                 }
@@ -274,6 +274,8 @@ const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, 
         }
         setLetters(letters2);
     }, []);
+
+     
 
 
     return (

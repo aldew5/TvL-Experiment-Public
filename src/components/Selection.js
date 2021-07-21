@@ -34,7 +34,7 @@ const Selection = ({ keyVal, keyPressed, setKeyVal, setDisplay,
         let current = new Date();
         let reaction_time = current - startTime; 
 
-        if (reaction_time < 100){
+        if (reaction_time < 200){
             reaction_time = "";
         }
 

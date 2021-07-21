@@ -12,7 +12,7 @@ const Instructions = () => {
       <div className="instructions">
         <p>Instructions:</p>
         <p className="text">Press the right arrow key if the T is titled right and the
-          left arrow key if the T is oriented left.
+          left arrow key if the T is oriented left. Please expand your browser window to full size.
         </p>
         <p className="text">When you have completed all of the trials, a message will notify
           you that the experiment has been completed.

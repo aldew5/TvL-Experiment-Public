@@ -18,19 +18,25 @@ const Selection = ({ keyVal, keyPressed, setKeyVal, setDisplay,
         
     // update the display after 2s to redisplay the Ts and Ls
     useEffect(() => {
-        
         const timer = setTimeout(() => {
             setDisplay(true);
-            setDisplayImages(false);
         }, 2000);
         return () => clearTimeout(timer);
 
     }, []);
 
+    useEffect(() => {
+        setDisplayImages(false);
+    })
+
     // save the trial data
     const createTrial = (isCorrect) => {
         let current = new Date();
         let reaction_time = current - startTime; 
+
+        if (reaction_time < 100){
+            reaction_time = "";
+        }
 
         let trial = "";
         // determine what type the trial was
@@ -113,8 +119,6 @@ const Selection = ({ keyVal, keyPressed, setKeyVal, setDisplay,
     
 
     useEffect(() => {
-       
-        //console.log("HERE", canPress);
         let isCorrect = false;
         if (keyPressed === keyVal) {
             setCorrect(true);

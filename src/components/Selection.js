@@ -34,10 +34,6 @@ const Selection = ({ keyVal, keyPressed, setKeyVal, setDisplay,
         let current = new Date();
         let reaction_time = current - startTime; 
 
-        if (reaction_time < 200){
-            reaction_time = "";
-        }
-
         let trial = "";
         // determine what type the trial was
         if (practice > 0) {

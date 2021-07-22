@@ -120,6 +120,7 @@ const Selection = ({ keyVal, keyPressed, setKeyVal, setDisplay,
             setCorrect(true);
             isCorrect = true;
         }
+        console.log("HERE");
         createTrial(isCorrect);
 
         let options = ["ArrowRight", "ArrowLeft"];

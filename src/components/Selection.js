@@ -120,7 +120,6 @@ const Selection = ({ keyVal, keyPressed, setKeyVal, setDisplay,
             setCorrect(true);
             isCorrect = true;
         }
-        console.log("HERE");
         createTrial(isCorrect);
 
         let options = ["ArrowRight", "ArrowLeft"];
@@ -133,13 +132,13 @@ const Selection = ({ keyVal, keyPressed, setKeyVal, setDisplay,
         <div className="Selection">
             {practice > 0 ?
                 <div>
-                    {correct ? <div className="Correct"><p>Correct</p> <p>{practice} practice trials left</p></div> :
-                        <div className="Incorrect"><p>Incorrect</p> <p>{practice} practice trials left</p></div>}
+                    {correct ? <div className="correct"><p>Correct</p> <p>{practice} practice trials left</p></div> :
+                        <div className="incorrect"><p>Incorrect</p> <p>{practice} practice trials left</p></div>}
                 </div>
                 :
                 <div>
-                    {correct ? <div className="Correct"><p>Correct</p> <p>{exper} experiment trials left</p></div> :
-                        <div className="Incorrect"><p>Incorrect</p> <p>{exper} experiment trials left</p></div>}
+                    {correct ? <div className="correct"><p>Correct</p> <p>{exper} experiment trials left</p></div> :
+                        <div className="incorrect"><p>Incorrect</p> <p>{exper} experiment trials left</p></div>}
                 </div>
             }
         </div>

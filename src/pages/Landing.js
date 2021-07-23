@@ -6,7 +6,6 @@ import Instructions from "../components/Instructions.js";
 const Landing = () => {
     const [displayMenu, setDisplayMenu] = useState(true);
 
-
     return (
         <div>
             {displayMenu ?

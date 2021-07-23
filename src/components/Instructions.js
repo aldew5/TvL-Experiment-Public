@@ -5,8 +5,6 @@ import rightT from "../assets/rightT.png";
 import leftT from "../assets/leftT.png";
 
 const Instructions = () => {
-
-
   return (
     <div>
       <div className="instructions">
@@ -38,6 +36,5 @@ const Instructions = () => {
   )
 
 }
-
 
 export default Instructions;

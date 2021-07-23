@@ -1,5 +1,5 @@
 
-.Correct {
+.correct {
     background-color: green;
     margin-top: auto;
     width: 50%;
@@ -12,7 +12,7 @@
     font-size: 50px;
 }
 
-.Incorrect {
+.incorrect {
     background-color: red;
     margin: auto;
     width: 50%;

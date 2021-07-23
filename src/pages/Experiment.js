@@ -5,7 +5,7 @@ import { ExperimentContext } from "../components/ExperimentContext";
 import Complete from "../components/Complete.js";
 import Images from "../components/Images.js";
 
-function useForceUpdate(){
+function useForceUpdate() {
   const [value, setValue] = useState(0); // integer state
   return () => setValue(value => value + 1); // update the state to force render
 }
@@ -89,8 +89,8 @@ const Experiment = () => {
   })
 
   useEffect(() => {
-    
-    if (displayImages && display){
+
+    if (displayImages && display) {
       setCanPress(true);
       forceUpdate();
     }
@@ -115,8 +115,6 @@ const Experiment = () => {
                   types={types}
                   setPos={setPos}
                   type={type}
-                  
-               
                 /> :
                 <div></div>
               }
@@ -140,8 +138,6 @@ const Experiment = () => {
                 types={types}
                 pos={pos}
                 index={index}
-                
-
               />
             </div>}
 

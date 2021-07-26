@@ -79,7 +79,7 @@ const Selection = ({ keyVal, keyPressed, setKeyVal, setDisplay,
             experiment = "size_and_shape";
         }
         else if (TvL === "3"){
-            experiment = "smallSharp_and_smallPointy";
+            experiment = "smallSharp_and_smallDot";
         }
         else if (TvL === "4"){
             experiment = "smallSharp_and_BigSharp";

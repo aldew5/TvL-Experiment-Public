@@ -89,6 +89,7 @@ const Selection = ({ keyVal, keyPressed, setKeyVal, setDisplay,
 
         // data that will be saved in the realtime database
         const userData = {
+            counter: 211 - (practice + exper),
             initials: initials,
             blockReport: trial,
             condition: condition,

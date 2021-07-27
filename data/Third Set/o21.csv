@@ -1,0 +1,16 @@
+_key,RT,SwitchProbability,TLoc,Ttype,blockReport,condition,counter,ctr,cuestr,error,experiment,initials,maskFlag,message,orientation,prevType,rep,response,setSize,switchFlag,yn
+-MfcbkmYIamIaFgJphb_,1520,0.5,0,smalldotT,practice,3,1,0,,0,smallSharp_and_smallDot,A36A780ODXBDEH,0,,ArrowLeft,none,1,,18,1,1
+-MfcbmQ2u9WARRDFgYgR,809,0.5,8,smalldotT,practice,3,2,0,,0,smallSharp_and_smallDot,A36A780ODXBDEH,0,,ArrowLeft,smalldotT,2,,18,0,1
+-Mfcbnb9H-aZp_nttJ_3,1874,0.5,5,smallsharpT,practice,3,3,0,,0,smallSharp_and_smallDot,A36A780ODXBDEH,0,,ArrowRight,smalldotT,1,,6,1,1
+-Mfcboj0ZccxKluXfnBr,1598,0.5,1,smallsharpT,practice,3,4,0,,0,smallSharp_and_smallDot,A36A780ODXBDEH,0,,ArrowLeft,smallsharpT,2,,6,0,1
+-Mfcbpm-5vN1mXk9ht7q,1282,0.5,6,smalldotT,practice,3,5,0,,0,smallSharp_and_smallDot,A36A780ODXBDEH,0,,ArrowRight,smallsharpT,1,,12,1,1
+-MfcbrCtP-O7t7gVc2Md,2879,0.5,16,smalldotT,practice,3,6,0,,1,smallSharp_and_smallDot,A36A780ODXBDEH,0,,ArrowLeft,smalldotT,2,,18,0,1
+-MfcbtoHhkkIizM74IaG,7645,0.5,11,smallsharpT,practice,3,7,0,,0,smallSharp_and_smallDot,A36A780ODXBDEH,0,,ArrowLeft,smalldotT,1,,12,1,1
+-Mfcbve89zlJwRAYmEi9,4540,0.5,4,smallsharpT,practice,3,8,0,,1,smallSharp_and_smallDot,A36A780ODXBDEH,0,,ArrowRight,smallsharpT,2,,12,0,1
+-MfcbxA-q18lmh9SbjTz,3192,0.5,9,smallsharpT,practice,3,9,0,,1,smallSharp_and_smallDot,A36A780ODXBDEH,0,,ArrowLeft,smallsharpT,3,,12,0,1
+-MfcbyBkofvLf5ZkP8bX,1203,0.5,5,smallsharpT,practice,3,10,0,,1,smallSharp_and_smallDot,A36A780ODXBDEH,0,,ArrowRight,smallsharpT,4,,6,0,1
+-MfcbzMd6RB5TQR9UHss,1787,0.5,1,smallsharpT,experiment,3,11,0,,1,smallSharp_and_smallDot,A36A780ODXBDEH,0,,ArrowRight,smallsharpT,5,,6,0,1
+-Mfcc-ct6AQedGa8iXnG,2196,0.5,3,smalldotT,experiment,3,12,0,,1,smallSharp_and_smallDot,A36A780ODXBDEH,0,,ArrowRight,smallsharpT,1,,6,1,1
+-Mfcc0v0Qgt7v-ZFJkEb,2251,0.5,12,smalldotT,experiment,3,13,0,,0,smallSharp_and_smallDot,A36A780ODXBDEH,0,,ArrowRight,smalldotT,2,,18,0,1
+-Mfcc1xGXgLuvKc-7MZO,1235,0.5,3,smalldotT,experiment,3,14,0,,1,smallSharp_and_smallDot,A36A780ODXBDEH,0,,ArrowRight,smalldotT,3,,6,0,1
+-Mfcc2vdLhZSqTXZsMyT,987,0.5,4,smalldotT,experiment,3,15,0,,1,smallSharp_and_smallDot,A36A780ODXBDEH,0,,ArrowLeft,smalldotT,4,,6,0,1

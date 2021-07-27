@@ -1,0 +1,12 @@
+_key,RT,SwitchProbability,TLoc,Ttype,blockReport,condition,counter,ctr,cuestr,error,experiment,initials,maskFlag,message,orientation,prevType,rep,response,setSize,switchFlag,yn
+-MfcVJz27zMrqg1Zm27U,1712,0.5,7,smallsharpT,practice,3,1,0,,0,smallSharp_and_smallDot,A2APG8MSLJ6G2K,0,,ArrowLeft,none,1,,12,1,1
+-MfcVLhE8zReIrSuQOsP,2979,0.5,1,smallsharpT,practice,3,2,0,,1,smallSharp_and_smallDot,A2APG8MSLJ6G2K,0,,ArrowRight,smallsharpT,2,,12,0,1
+-MfcVNf6F7w7nOS0q8u4,5045,0.5,4,smallsharpT,practice,3,3,0,,0,smallSharp_and_smallDot,A2APG8MSLJ6G2K,0,,ArrowRight,smallsharpT,3,,12,0,1
+-MfcVR8MNgxNUoEkJIw8,11202,0.5,0,smalldotT,practice,3,4,0,,1,smallSharp_and_smallDot,A2APG8MSLJ6G2K,0,,ArrowLeft,smallsharpT,1,,12,1,1
+-MfcVSvnStxA1y3kxivJ,5311,0.5,14,smalldotT,practice,3,5,0,,0,smallSharp_and_smallDot,A2APG8MSLJ6G2K,0,,ArrowLeft,smalldotT,2,,18,0,1
+-MfcVVIPPXm7ibgwZtR6,6697,0.5,17,smalldotT,practice,3,6,0,,1,smallSharp_and_smallDot,A2APG8MSLJ6G2K,0,,ArrowRight,smalldotT,3,,18,0,1
+-MfcVXevv8YYLNXadTUG,6688,0.5,4,smalldotT,practice,3,7,0,,0,smallSharp_and_smallDot,A2APG8MSLJ6G2K,0,,ArrowLeft,smalldotT,4,,18,0,1
+-MfcVZ5P9XYbiZwtESw4,3838,0.5,4,smallsharpT,practice,3,8,0,,1,smallSharp_and_smallDot,A2APG8MSLJ6G2K,0,,ArrowRight,smalldotT,1,,6,1,1
+-MfcV_gu6lFx7xI8GVaW,4544,0.5,3,smalldotT,practice,3,9,0,,1,smallSharp_and_smallDot,A2APG8MSLJ6G2K,0,,ArrowLeft,smallsharpT,1,,6,1,1
+-MfcVbUYxYdpw8ygPjo3,4319,0.5,0,smalldotT,practice,3,10,0,,1,smallSharp_and_smallDot,A2APG8MSLJ6G2K,0,,ArrowLeft,smalldotT,2,,6,0,1
+-MfcVfD2ttlg-wQODfup,12261,0.5,1,smalldotT,experiment,3,11,0,,1,smallSharp_and_smallDot,A2APG8MSLJ6G2K,0,,ArrowLeft,smalldotT,3,,6,0,1

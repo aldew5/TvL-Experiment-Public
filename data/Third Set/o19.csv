@@ -1,0 +1,6 @@
+_key,RT,SwitchProbability,TLoc,Ttype,blockReport,condition,counter,ctr,cuestr,error,experiment,initials,maskFlag,message,orientation,prevType,rep,response,setSize,switchFlag,yn
+-Mfch8tjoUmZ9wB7Z_Wq,14027,0.5,10,smallsharpT,practice,3,1,0,,0,smallSharp_and_smallDot,A2WWYVKGZZXBOB,0,,ArrowLeft,none,1,,18,1,1
+-MfchC3MJOD6XI_sCF6z,5676,0.5,4,smallsharpT,practice,3,2,0,,1,smallSharp_and_smallDot,A2WWYVKGZZXBOB,0,,ArrowRight,smallsharpT,2,,6,0,1
+-MfchDfNakN6_SkYnd9C,3578,0.5,0,smalldotT,practice,3,3,0,,1,smallSharp_and_smallDot,A2WWYVKGZZXBOB,0,,ArrowLeft,smallsharpT,1,,6,1,1
+-MfchGPNZ-oArkd_u579,8185,0.5,1,smallsharpT,practice,3,4,0,,0,smallSharp_and_smallDot,A2WWYVKGZZXBOB,0,,ArrowRight,smalldotT,1,,18,1,1
+-MfchJ9da1EAUVUPpxWr,8264,0.5,9,smallsharpT,practice,3,5,0,,1,smallSharp_and_smallDot,A2WWYVKGZZXBOB,0,,ArrowRight,smallsharpT,2,,12,0,1

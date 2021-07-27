@@ -1,0 +1,8 @@
+_key,RT,SwitchProbability,TLoc,Ttype,blockReport,condition,counter,ctr,cuestr,error,experiment,initials,maskFlag,message,orientation,prevType,rep,response,setSize,switchFlag,yn
+-MfaDS-X6a55uMuD4P61,7894,0.5,5,smallsharpT,practice,3,1,0,,1,smallSharp_and_smallDot,A16UAN46CNIRHY,0,,ArrowLeft,none,1,,18,1,1
+-MfaDTyJ1fRjXJ7BU3jz,4649,0.5,11,smallsharpT,practice,3,2,0,,0,smallSharp_and_smallDot,A16UAN46CNIRHY,0,,ArrowLeft,smallsharpT,2,,18,0,1
+-MfaDVE7zfhCyeNgo6hC,3152,0.5,0,smallsharpT,practice,3,3,0,,1,smallSharp_and_smallDot,A16UAN46CNIRHY,0,,ArrowRight,smallsharpT,3,,12,0,1
+-MfaDWvuTP1cJ4dgyLJV,3929,0.5,15,smallsharpT,practice,3,4,0,,0,smallSharp_and_smallDot,A16UAN46CNIRHY,0,,ArrowLeft,smallsharpT,4,,18,0,1
+-MfaDYWsy0ZLeBxf52cM,4508,0.5,0,smalldotT,practice,3,5,0,,0,smallSharp_and_smallDot,A16UAN46CNIRHY,0,,ArrowRight,smallsharpT,1,,6,1,1
+-MfaD_0cWSQMEGdr62Rw,3101,0.5,10,smallsharpT,practice,3,6,0,,0,smallSharp_and_smallDot,A16UAN46CNIRHY,0,,ArrowLeft,smalldotT,1,,12,1,1
+-MfaDaiMwKnBgCpUI-em,3940,0.5,3,smalldotT,practice,3,7,0,,1,smallSharp_and_smallDot,A16UAN46CNIRHY,0,,ArrowRight,smallsharpT,1,,12,1,1

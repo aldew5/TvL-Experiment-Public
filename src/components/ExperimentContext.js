@@ -5,13 +5,13 @@ export const ExperimentContext = createContext();
 export const ExperimentProvider = (props) => {
     const [initials, setInitials] = useState("AD");
     const [condition, setCondition] = useState("3");
-    const [TvL, setTvL] = useState("3");
+    const [TvL, setTvL] = useState("5");
     const [practice, setPractice] = useState(10);
     const [exper, setExper] = useState(200);
 
-    const [size1, setSize1] = useState(6);
-    const [size2, setSize2] = useState(12);
-    const [size3, setSize3] = useState(18);
+    const [size1, setSize1] = useState(4);
+    const [size2, setSize2] = useState(8);
+    const [size3, setSize3] = useState(12);
     const [sizes, setSizes] = useState([]);
 
     var now = new Date();

@@ -16,6 +16,12 @@ import sharpL from "../assets/sharpL.png";
 import dotT from "../assets/dotT.png";
 import sharpT from "../assets/sharpT.png";
 
+
+import blobL from "../assets/blobL.png";
+import blobT from "../assets/blobT.png";
+import arrowT from "../assets/arrowT.png";
+import arrowL from "../assets/arrowL.png";
+
 const Image = ({ tilt, letter, type }) => {
 
     const [initials, setInitials, condition, setCondition, TvL, setTvL, practice, setPractice,
@@ -59,8 +65,20 @@ const Image = ({ tilt, letter, type }) => {
 
         }
         else if (type === "bigdotT") {
-            console.log("IN:LKJ");
             src = dotT;
+
+            width = "80";
+            height = "80";
+        }
+
+        else if (type === "blobT"){
+            src = blobT;
+
+            width = "80";
+            height = "80";
+        }
+        else if (type === "arrowT"){
+            src = arrowT;
 
             width = "80";
             height = "80";
@@ -94,6 +112,19 @@ const Image = ({ tilt, letter, type }) => {
             width = "80";
             height = "80";
         }
+        else if (type === "blobL"){
+            src = blobL;
+
+            width = "80";
+            height = "80";
+        }
+        else if (type === "arrowL"){
+            src = arrowL;
+
+            width = "80";
+            height = "80";
+        }
+
 
     }
 

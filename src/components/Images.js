@@ -238,6 +238,35 @@ const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, 
             }
 
         }
+        // blob and arrow
+        else if (TvL === "5") {
+
+            if (type === "") {
+                style = "blobT";
+            }
+
+            if (rand <= prob) {
+                if (type === "blobT") {
+                    style = "arrowT";
+                }
+                else {
+                    style = "blobT";
+                }
+            }
+            else {
+                if (type !== "") {
+                    style = type;
+                }
+            }
+
+            for (var i = 0; i < (size - 1) / 2; i++) {
+                Ls.push("blobL");
+            }
+            for (var i = 0; i < (size - 1) - (size - 1) / 2; i++) {
+                Ls.push("arrowL");
+            }
+
+        }
         setType(style);
 
 

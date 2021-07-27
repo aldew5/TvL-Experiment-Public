@@ -84,6 +84,9 @@ const Selection = ({ keyVal, keyPressed, setKeyVal, setDisplay,
         else if (TvL === "4"){
             experiment = "smallSharp_and_BigSharp";
         }
+        else if (TvL === "5"){
+            experiment = "blob_and_arrow"
+        }
 
         const userRef = firebase.database().ref(initials + " " + date + " batch4");
 

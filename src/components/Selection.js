@@ -85,7 +85,7 @@ const Selection = ({ keyVal, keyPressed, setKeyVal, setDisplay,
             experiment = "smallSharp_and_BigSharp";
         }
 
-        const userRef = firebase.database().ref(initials + " " + date + " new");
+        const userRef = firebase.database().ref(initials + " " + date + " batch3");
 
         // data that will be saved in the realtime database
         const userData = {

@@ -51,9 +51,9 @@ const Menu = ({ setDisplayMenu }) => {
                 
                 <p>Please complete the demographic form before submitting your response found &nbsp;
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSeQBfa77cRRUreUZdGzZzHFrqOh__htgvl0eqtfSe3UFlVPxw/viewform?usp=sf_link">
-                        here.
+                        here
                     </a>
-                    &nbsp;
+                    &nbsp; in a new tab. 
                     Not doing so would result in your HIT not being counted. Thank you.
                 </p>
 

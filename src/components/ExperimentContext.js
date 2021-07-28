@@ -10,8 +10,8 @@ export const ExperimentProvider = (props) => {
     const [exper, setExper] = useState(200);
 
     const [size1, setSize1] = useState(4);
-    const [size2, setSize2] = useState(8);
-    const [size3, setSize3] = useState(12);
+    const [size2, setSize2] = useState(7);
+    const [size3, setSize3] = useState(10);
     const [sizes, setSizes] = useState([]);
 
     var now = new Date();

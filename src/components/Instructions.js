@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import "./Instructions.css";
 import rightT from "../assets/rightdotT.png";
 import leftT from "../assets/leftsharpT.png";
+import blobLeft from "../assets/blobLeft.png";
+import arrowRight from "../assets/arrowRight.png";
 
 const Instructions = () => {
   return (
@@ -21,11 +23,11 @@ const Instructions = () => {
 
       <div className="images">
         <figure className="image1">
-          <img src={rightT} width="200" height="200"/>
+          <img src={arrowRight} width="200" height="200"/>
           <figcaption>Right tilted T</figcaption>
         </figure>
         <figure className="image2">
-          <img src={leftT} width="200" height="200"/>
+          <img src={blobLeft} width="200" height="200"/>
           <figcaption>Left tilted T</figcaption>
         </figure>
         <p><br /><br /></p>

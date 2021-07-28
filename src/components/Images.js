@@ -11,7 +11,6 @@ const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, 
     const [letters, setLetters] = useState([]);
 
     useEffect(() => {
-
         let start = new Date();
         setStartTime(start.getTime());
 
@@ -185,7 +184,6 @@ const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, 
         else if (TvL === "3") {
 
             if (type === "") {
-                console.log("HEREsdfsa");
                 style = "smalldotT";
             }
 
@@ -277,7 +275,7 @@ const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, 
 
         shuffle(Ls);
 
-        let letters2 = []
+        let letters2 = [];
         // render images of Ls and Ts in the same order as in the array
         for (i = 0; i < size; i++) {
             if (arr[i] !== "T") {
@@ -286,6 +284,7 @@ const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, 
                         tilt={keyVal}
                         letter={arr[i]}
                         type={Ls[index]}
+                        imh
                     />)
 
                 index++;

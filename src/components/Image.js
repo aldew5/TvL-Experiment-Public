@@ -74,14 +74,14 @@ const Image = ({ tilt, letter, type }) => {
         else if (type === "blobT"){
             src = blobT;
 
-            width = "80";
-            height = "80";
+            width = "100";
+            height = "100";
         }
         else if (type === "arrowT"){
             src = arrowT;
 
-            width = "80";
-            height = "80";
+            width = "100";
+            height = "100";
         }
     }
     else {
@@ -115,14 +115,14 @@ const Image = ({ tilt, letter, type }) => {
         else if (type === "blobL"){
             src = blobL;
 
-            width = "80";
-            height = "80";
+            width = "100";
+            height = "100";
         }
         else if (type === "arrowL"){
             src = arrowL;
 
-            width = "80";
-            height = "80";
+            width = "100";
+            height = "100";
         }
 
 

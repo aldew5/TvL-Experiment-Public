@@ -88,7 +88,7 @@ const Selection = ({ keyVal, keyPressed, setKeyVal, setDisplay,
             experiment = "blob_and_arrow"
         }
 
-        const userRef = firebase.database().ref(initials + " " + date + " batch4");
+        const userRef = firebase.database().ref(initials + " " + date + " batch5");
 
         // data that will be saved in the realtime database
         const userData = {

@@ -48,6 +48,14 @@ const Menu = ({ setDisplayMenu }) => {
                 <input type="text" id="initials" name="initials"
                     value={initials} onChange={initialHandler}
                     className="input-field" /><br /><br />
+                
+                <p>Please complete the demographic form before submitting your response found &nbsp;
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeQBfa77cRRUreUZdGzZzHFrqOh__htgvl0eqtfSe3UFlVPxw/viewform?usp=sf_link">
+                        here.
+                    </a>
+                    &nbsp;
+                    Not doing so would result in your HIT not being counted. Thank you.
+                </p>
 
                 <button onClick={submitHandler}>Submit</button>
             </form>

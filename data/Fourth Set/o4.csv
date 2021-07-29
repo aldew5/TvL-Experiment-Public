@@ -1,0 +1,11 @@
+_key,RT,SwitchProbability,TLoc,Ttype,blockReport,condition,counter,ctr,cuestr,error,experiment,initials,maskFlag,message,orientation,prevType,rep,response,setSize,switchFlag,yn
+-Mfi3_RHt0i08Xa4C38-,3852,0.5,8,blobT,practice,3,1,0,,1,blob_and_arrow,A3J55BJGV95JKH,0,,ArrowLeft,none,1,,10,1,1
+-Mfi3dNkLjWkws_apwGY,2968,0.5,7,arrowT,practice,3,2,0,,1,blob_and_arrow,A3J55BJGV95JKH,0,,ArrowRight,blobT,1,,10,1,1
+-Mfi3efLfJ_aRn562END,2283,0.5,2,blobT,practice,3,3,0,,0,blob_and_arrow,A3J55BJGV95JKH,0,,ArrowRight,arrowT,1,,10,1,1
+-Mfi3gLJ2JIdL_lvyUep,3842,0.5,0,arrowT,practice,3,4,0,,0,blob_and_arrow,A3J55BJGV95JKH,0,,ArrowRight,blobT,1,,10,1,1
+-Mfi3hfJzbWm8KzJQ1fS,2435,0.5,3,blobT,practice,3,5,0,,1,blob_and_arrow,A3J55BJGV95JKH,0,,ArrowLeft,arrowT,1,,4,1,1
+-Mfi3j4gyqy8IIGRr1Xz,2778,0.5,5,arrowT,practice,3,6,0,,0,blob_and_arrow,A3J55BJGV95JKH,0,,ArrowLeft,blobT,1,,10,1,1
+-Mfi3kWBdLYva4urpLM2,2849,0.5,3,arrowT,practice,3,7,0,,1,blob_and_arrow,A3J55BJGV95JKH,0,,ArrowRight,arrowT,2,,4,0,1
+-Mfi3lZooqTR0ns5npbt,1322,0.5,2,blobT,practice,3,8,0,,0,blob_and_arrow,A3J55BJGV95JKH,0,,ArrowRight,arrowT,1,,4,1,1
+-Mfi3nCMHnfGsEO5blbg,3685,0.5,0,arrowT,practice,3,9,0,,1,blob_and_arrow,A3J55BJGV95JKH,0,,ArrowLeft,blobT,1,,7,1,1
+-Mfi3owwtzABclyhtGxT,4135,0.5,2,blobT,practice,3,10,0,,1,blob_and_arrow,A3J55BJGV95JKH,0,,ArrowRight,arrowT,1,,4,1,1

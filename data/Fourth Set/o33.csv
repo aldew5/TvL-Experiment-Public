@@ -1,0 +1,7 @@
+_key,RT,SwitchProbability,TLoc,Ttype,blockReport,condition,counter,ctr,cuestr,error,experiment,initials,maskFlag,message,orientation,prevType,rep,response,setSize,switchFlag,yn
+-Mfi9OFQz92Y9ZqrBu3l,2438,0.5,2,blobT,practice,3,1,0,,1,blob_and_arrow,AJACXA5FC5BYZ,0,,ArrowLeft,none,1,,4,1,1
+-Mfi9PjYHfV7RzZ_XJ_8,2986,0.5,4,arrowT,practice,3,2,0,,0,blob_and_arrow,AJACXA5FC5BYZ,0,,ArrowRight,blobT,1,,7,1,1
+-Mfi9QqIRnItqpaL00gF,1521,0.5,3,arrowT,practice,3,3,0,,0,blob_and_arrow,AJACXA5FC5BYZ,0,,ArrowLeft,arrowT,2,,4,0,1
+-Mfi9SWcP-jrRl9Cqx1E,3863,0.5,2,blobT,practice,3,4,0,,1,blob_and_arrow,AJACXA5FC5BYZ,0,,ArrowLeft,arrowT,1,,4,1,1
+-Mfi9UhhxSg44F_r5cCc,5957,0.5,6,blobT,practice,3,5,0,,1,blob_and_arrow,AJACXA5FC5BYZ,0,,ArrowRight,blobT,2,,7,0,1
+-Mfi9Wi10cn__C3naTMS,5206,0.5,3,arrowT,practice,3,6,0,,1,blob_and_arrow,AJACXA5FC5BYZ,0,,ArrowRight,blobT,1,,10,1,1

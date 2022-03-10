@@ -7,7 +7,7 @@ import Experiment from "./pages/Experiment";
 import {
   Route,
   BrowserRouter as Router,
-  Switch,
+  Routes,
 } from "react-router-dom";
 
 function App() {
@@ -15,16 +15,16 @@ function App() {
   return (
     <ExperimentProvider>
       <Router>
-        <Switch>
+        <Routes>
           <Route
             exact path="/"
-            component={Landing}
+            element={<Landing/>}
           />
 
           <Route path="/experiment"
-            component={Experiment}
+            element={<Experiment/>}
           />
-        </Switch>
+        </Routes>
       </Router>
     </ExperimentProvider>
 

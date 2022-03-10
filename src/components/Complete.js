@@ -1,5 +1,4 @@
-import React from "react";
-import "./Complete.css";
+import "../styles/Complete.css";
 
 const Complete = () => {
     return (

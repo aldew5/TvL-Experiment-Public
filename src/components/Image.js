@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import { ExperimentContext } from "./ExperimentContext.js";
 
 import blackT from "../assets/blackT.png";

@@ -1,5 +1,5 @@
-import React, { useContext } from "react";
-import './Menu.css';
+import { useContext } from "react";
+import '../styles/Menu.css';
 import { ExperimentContext } from "./ExperimentContext";
 
 

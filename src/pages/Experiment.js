@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useContext } from 'react';
-import "./Experiment.css"
+import { useState, useEffect, useContext } from 'react';
+import "../styles/Experiment.css"
 import Selection from "../components/Selection.js";
 import { ExperimentContext } from "../components/ExperimentContext";
 import Complete from "../components/Complete.js";

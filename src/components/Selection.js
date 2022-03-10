@@ -1,5 +1,5 @@
-import React, { useEffect, useState, useContext } from "react";
-import "./Selection.css";
+import { useEffect, useState, useContext } from "react";
+import "../styles/Selection.css";
 import { ExperimentContext } from "./ExperimentContext";
 import firebase from "../util/firebase.js";
 

@@ -1,0 +1,17 @@
+.Experiment-display {
+    text-align: center;  
+}
+
+.Experiment-completion {
+    text-align: center;
+    margin: auto;
+}
+
+.box {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    margin-left: 50%;
+    margin-top: 25%;
+    display: block;
+}

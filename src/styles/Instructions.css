@@ -1,0 +1,42 @@
+.instructions {
+    padding-top: 5%;
+    text-align: center;
+    font-size: 250%;
+}
+
+.text {
+    text-align: left;
+    padding-left: 5%;
+}
+
+.button {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.image1 {
+    display: block;
+    margin-left: 25%;
+    margin-right: auto;
+    display: inline-block;
+    
+    
+}
+
+.image2 {
+    margin-left: 25%;
+    margin-right: auto;
+    display: inline-block;
+    
+    padding-left: 100px;
+
+}
+
+.bttn {
+    text-align: center;
+}

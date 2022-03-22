@@ -5,6 +5,12 @@ for shape priming.  Other versions of the experiment use color and size as primi
 
 <img src="https://github.com/aldew5/TvL-Experiment-Public/blob/master/src/assets/experiment.png" width="50%" height="50%"/>
 
+Our results were described in my paper "Effects of Priming on the Deployment of Attention in Visual Search".  
+
 # Technologies
-Built using React JS
+This application was built using React JS and Firebase.
+
+# Acknowledgements
+Thank you to Dr. Jeremy Wolfe and the entire Harvard Medical School/Brigham and Women's Hospital Visual Attention Lab for helping me with
+this project. Thank you to MIT and the Research Science Institute for making this research possible.
 

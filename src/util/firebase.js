@@ -1,9 +1,5 @@
 import firebase from "firebase";
 
-// Set the configuration for your app
-// TODO: Replace with your project's config object
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyAD7EePD7WlGe1xlEpy4dc_diQ-kri_1k4",
   authDomain: "tvl-experiment.firebaseapp.com",

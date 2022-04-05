@@ -240,7 +240,6 @@ const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, 
         }
         setType(style);
 
-
         // update the list of rendered T types
         let copy = types;
         copy.push(style);
@@ -269,8 +268,6 @@ const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, 
                         type={style}
                     />)
             }
-
-
         }
         setLetters(letters2);
     }, []);
@@ -280,6 +277,5 @@ const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, 
     )
 
 }
-
 
 export default Images;

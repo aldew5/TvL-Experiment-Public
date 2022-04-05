@@ -14,7 +14,6 @@ const Selection = ({ keyVal, keyPressed, setKeyVal, setDisplay,
     const [initials, setInitials, condition, setCondition, TvL, setTvL, practice, setPractice,
         exper, setExper, size1, setSize1, size2, setSize2, size3,
         setSize3, prob, setProb, sizes, setSizes, shuffle, date, setDate] = useContext(ExperimentContext);
-    
         
     // update the display after 2s to redisplay the Ts and Ls
     useEffect(() => {
@@ -113,7 +112,6 @@ const Selection = ({ keyVal, keyPressed, setKeyVal, setDisplay,
         userRef.push(userData);
     }
     
-
     useEffect(() => {
         let isCorrect = false;
         if (keyPressed === keyVal) {
@@ -125,8 +123,6 @@ const Selection = ({ keyVal, keyPressed, setKeyVal, setDisplay,
         let options = ["ArrowRight", "ArrowLeft"];
         setKeyVal(options[Math.floor(Math.random() *2)]);
     }, []);
-
-
 
     return (
         <div className="Selection">

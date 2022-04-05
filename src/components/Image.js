@@ -1,6 +1,3 @@
-import { useContext } from 'react';
-import { ExperimentContext } from "./ExperimentContext.js";
-
 import blackT from "../assets/blackT.png";
 import blackL from '../assets/blackL.png';
 
@@ -10,17 +7,12 @@ import greenL from '../assets/greenL.png';
 import redL from "../assets/redL.png";
 import redT from '../assets/redT.png';
 
-
 import dotL from "../assets/dotL.png";
 import sharpL from "../assets/sharpL.png";
 import dotT from "../assets/dotT.png";
 import sharpT from "../assets/sharpT.png";
 
 const Image = ({ tilt, letter, type }) => {
-
-    const [initials, setInitials, condition, setCondition, TvL, setTvL, practice, setPractice,
-        exper, setExper, size1, setSize1, size2, setSize2, size3,
-        setSize3, prob, setProb, sizes, setSizes, shuffle] = useContext(ExperimentContext);
 
     //Math.random() * (max - min) + min
     let top = Math.floor(Math.random() * (700 - 150)) + 150;
@@ -160,7 +152,6 @@ const Image = ({ tilt, letter, type }) => {
             height={height}
 
         />
-
     )
 }
 

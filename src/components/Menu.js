@@ -2,7 +2,6 @@ import { useContext } from "react";
 import '../styles/Menu.css';
 import { ExperimentContext } from "./ExperimentContext";
 
-
 const Menu = ({ setDisplayMenu }) => {
     const [initials, setInitials, condition, setCondition, TvL, setTvL, practice, setPractice,
         exper, setExper, size1, setSize1, size2, setSize2, size3,

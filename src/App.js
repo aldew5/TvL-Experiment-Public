@@ -1,4 +1,3 @@
-import React from "react";
 import './App.css';
 import Landing from "./pages/Landing";
 import { ExperimentProvider } from "./components/ExperimentContext";
@@ -20,14 +19,12 @@ function App() {
             path="/"
             element={<Landing />}
           />
-
           <Route path="/experiment"
             element={<Experiment />}
           />
         </Routes>
       </Router>
     </ExperimentProvider>
-
   );
 }
 

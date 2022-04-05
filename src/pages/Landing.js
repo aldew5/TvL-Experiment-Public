@@ -1,5 +1,5 @@
 import Menu from "../components/Menu";
-import "./Landing.css"
+import "../styles/Landing.css"
 import React, { useState } from "react";
 import Instructions from "../components/Instructions.js";
 
@@ -14,9 +14,11 @@ const Landing = () => {
                     <Menu
                         setDisplayMenu={setDisplayMenu}
                     />
-                </div> : <Instructions />}
+                </div>
+                :
+                <Instructions />
+            }
         </div>
-
     );
 }
 

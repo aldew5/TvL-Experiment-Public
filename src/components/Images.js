@@ -19,8 +19,7 @@ const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, 
         let index = 0;
         let Ls = [];
 
-
-        var style = "";
+        let style = "";
         // create an array with a single T
         // fill the rest of it with Ls (these correspond to the images that will be rendered)
         let arr = ["T"];
@@ -31,7 +30,7 @@ const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, 
         // randomly shuffle the array
         arr = shuffle(arr);
 
-        for (var i = 0; i < arr.length; i++) {
+        for (let i = 0; i < arr.length; i++) {
             if (arr[i] === "T") {
                 setPos(i);
             }
@@ -51,22 +50,22 @@ const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, 
 
                 // red and green Ls
                 if (condition === "1") {
-                    for (var i = 0; i < (size - 1) / 2; i++) {
+                    for (let i = 0; i < (size - 1) / 2; i++) {
                         Ls.push("red");
                     }
-                    for (var i = (size - 1) / 2; i < (size - 1); i++) {
+                    for (let i = (size - 1) / 2; i < (size - 1); i++) {
                         Ls.push("green");
                     }
                 }
                 // red, green, and black Ls
                 else if (condition === "4") {
-                    for (var i = 0; i < (size - 1) / 3; i++) {
+                    for (let i = 0; i < (size - 1) / 3; i++) {
                         Ls.push("green");
                     }
-                    for (var i = 0; i < (size - 1) / 3; i++) {
+                    for (let i = 0; i < (size - 1) / 3; i++) {
                         Ls.push("red");
                     }
-                    for (var i = 0; i < (size - 1) - 2 * ((size - 1) / 3); i++) {
+                    for (let i = 0; i < (size - 1) - 2 * ((size - 1) / 3); i++) {
                         Ls.push("black");
                     }
                 }
@@ -92,10 +91,10 @@ const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, 
                 }
 
                 // red or green Ls
-                for (var i = 0; i < (size - 1) / 2; i++) {
+                for (let i = 0; i < (size - 1) / 2; i++) {
                     Ls.push("green");
                 }
-                for (var i = 0; i < (size - 1) - (size - 1) / 2; i++) {
+                for (let i = 0; i < (size - 1) - (size - 1) / 2; i++) {
                     Ls.push("red");
                 }
             }
@@ -108,13 +107,13 @@ const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, 
                 // colours = ["red", "green", "black"];
 
                 // we can have red, green, and black Ls
-                for (var i = 0; i < (size - 1) / 3; i++) {
+                for (let i = 0; i < (size - 1) / 3; i++) {
                     Ls.push("green");
                 }
-                for (var i = 0; i < (size - 1) / 3; i++) {
+                for (let i = 0; i < (size - 1) / 3; i++) {
                     Ls.push("red");
                 }
-                for (var i = 0; i < (size - 1) - 2 * ((size - 1) / 3); i++) {
+                for (let i = 0; i < (size - 1) - 2 * ((size - 1) / 3); i++) {
                     Ls.push("black");
                 }
 
@@ -168,19 +167,18 @@ const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, 
                 }
             }
 
-            for (var i = 0; i < (size - 1) / 4; i++) {
+            for (let i = 0; i < (size - 1) / 4; i++) {
                 Ls.push("bigdot");
             }
-            for (var i = 0; i < (size - 1) / 4; i++) {
+            for (let i = 0; i < (size - 1) / 4; i++) {
                 Ls.push("bigsharp");
             }
-            for (var i = 0; i < (size - 1) / 4; i++) {
+            for (let i = 0; i < (size - 1) / 4; i++) {
                 Ls.push("smalldot");
             }
-            for (var i = 0; i < (size - 1) - 3 * ((size - 1) / 4); i++) {
+            for (let i = 0; i < (size - 1) - 3 * ((size - 1) / 4); i++) {
                 Ls.push("smallsharp");
             }
-
         }
         else if (TvL === "3") {
 
@@ -202,10 +200,10 @@ const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, 
                     style = type;
                 }
             }
-            for (var i = 0; i < (size - 1) / 2; i++) {
+            for (let i = 0; i < (size - 1) / 2; i++) {
                 Ls.push("smalldot");
             }
-            for (var i = 0; i < (size - 1) - (size - 1) / 2; i++) {
+            for (let i = 0; i < (size - 1) - (size - 1) / 2; i++) {
                 Ls.push("smallsharp");
             }
 
@@ -230,10 +228,10 @@ const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, 
                 }
             }
 
-            for (var i = 0; i < (size - 1) / 2; i++) {
+            for (let i = 0; i < (size - 1) / 2; i++) {
                 Ls.push("bigsharp");
             }
-            for (var i = 0; i < (size - 1) - (size - 1) / 2; i++) {
+            for (let i = 0; i < (size - 1) - (size - 1) / 2; i++) {
                 Ls.push("smallsharp");
             }
 
@@ -275,7 +273,6 @@ const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, 
     return (
         <div>{letters}</div>
     )
-
 }
 
 export default Images;

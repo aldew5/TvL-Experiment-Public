@@ -1,6 +1,6 @@
 import Menu from "../components/Menu";
 import "../styles/Landing.css"
-import React, { useState } from "react";
+import { useState } from "react";
 import Instructions from "../components/Instructions.js";
 
 const Landing = () => {
